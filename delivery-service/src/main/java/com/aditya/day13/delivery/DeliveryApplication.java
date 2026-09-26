@@ -1,0 +1,1 @@
+package com.aditya.day13.delivery; import org.springframework.boot.*; import org.springframework.boot.autoconfigure.*; @SpringBootApplication public class DeliveryApplication{public static void main(String[]a){SpringApplication.run(DeliveryApplication.class,a);}}

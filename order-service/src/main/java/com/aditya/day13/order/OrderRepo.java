@@ -1,0 +1,1 @@
+package com.aditya.day13.order; import org.springframework.data.jpa.repository.JpaRepository; import java.util.*; public interface OrderRepo extends JpaRepository<FoodOrder,UUID>{}

@@ -1,0 +1,1 @@
+package com.aditya.day13.restaurant; import org.springframework.data.jpa.repository.JpaRepository; import java.util.*; public interface MenuRepo extends JpaRepository<MenuItem,UUID>{List<MenuItem> findByRestaurantId(UUID id);}

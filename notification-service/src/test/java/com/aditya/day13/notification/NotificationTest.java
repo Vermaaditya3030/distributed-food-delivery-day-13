@@ -1,0 +1,1 @@
+package com.aditya.day13.notification; import org.junit.jupiter.api.*; import static org.junit.jupiter.api.Assertions.*; class NotificationTest{@Test void health(){assertEquals("notification-service-ok",new NotificationController().health());}}

@@ -1,0 +1,1 @@
+package com.aditya.day13.delivery; import org.springframework.data.jpa.repository.JpaRepository; import java.util.*; public interface DeliveryRepo extends JpaRepository<DeliveryPartner,UUID>{List<DeliveryPartner> findByOnlineTrueAndAvailableTrue();}

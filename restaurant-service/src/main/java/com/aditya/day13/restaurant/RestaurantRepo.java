@@ -1,0 +1,1 @@
+package com.aditya.day13.restaurant; import org.springframework.data.jpa.repository.JpaRepository; import java.util.*; public interface RestaurantRepo extends JpaRepository<Restaurant,UUID>{}

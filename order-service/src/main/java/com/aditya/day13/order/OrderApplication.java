@@ -1,0 +1,1 @@
+package com.aditya.day13.order; import org.springframework.boot.*; import org.springframework.boot.autoconfigure.*; @SpringBootApplication public class OrderApplication{public static void main(String[]a){SpringApplication.run(OrderApplication.class,a);}}

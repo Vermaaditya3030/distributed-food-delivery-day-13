@@ -1,0 +1,6 @@
+server.port: 8083
+management.endpoints.web.exposure.include: health,info,prometheus
+spring.datasource.url: jdbc:postgresql://${DB_HOST:postgres}:5432/payments
+spring.datasource.username: postgres
+spring.datasource.password: postgres
+spring.jpa.hibernate.ddl-auto: update

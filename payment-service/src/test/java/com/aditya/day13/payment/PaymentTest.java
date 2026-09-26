@@ -1,0 +1,1 @@
+package com.aditya.day13.payment; import org.junit.jupiter.api.*; import static org.junit.jupiter.api.Assertions.*; class PaymentTest{@Test void idempotencyKey(){Payment p=new Payment();p.setIdempotencyKey("k");assertEquals("k",p.getIdempotencyKey());}}

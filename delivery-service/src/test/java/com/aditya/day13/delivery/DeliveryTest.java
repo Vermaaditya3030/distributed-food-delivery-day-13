@@ -1,0 +1,1 @@
+package com.aditya.day13.delivery; import org.junit.jupiter.api.*; import static org.junit.jupiter.api.Assertions.*; class DeliveryTest{@Test void zero(){assertEquals(0,new DeliveryService().distance(0,0,0,0),.0001);}}

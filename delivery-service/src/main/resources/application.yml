@@ -1,0 +1,7 @@
+server.port: 8084
+management.endpoints.web.exposure.include: health,info,prometheus
+spring.datasource.url: jdbc:postgresql://${DB_HOST:postgres}:5432/delivery
+spring.datasource.username: postgres
+spring.datasource.password: postgres
+spring.jpa.hibernate.ddl-auto: update
+spring.data.redis.host: ${REDIS_HOST:redis}

@@ -1,0 +1,1 @@
+package com.aditya.day13.payment; import org.springframework.data.jpa.repository.JpaRepository; import java.util.*; public interface PaymentRepo extends JpaRepository<Payment,UUID>{Optional<Payment> findByIdempotencyKey(String key);List<Payment> findByOrderId(UUID id);}

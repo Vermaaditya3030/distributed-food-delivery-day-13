@@ -1,0 +1,1 @@
+package com.aditya.day13.restaurant; import org.junit.jupiter.api.*; import static org.junit.jupiter.api.Assertions.*; class RestaurantTest{@Test void menuAvailable(){assertTrue(new MenuItem().isAvailable());}}
