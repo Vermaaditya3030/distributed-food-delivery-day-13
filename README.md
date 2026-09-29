@@ -53,7 +53,7 @@ git init
 git add .
 git commit -m "Day 13: distributed food delivery platform"
 git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/distributed-food-delivery-day13.git
+git remote add origin https://github.com/Vermaaditya@3030/distributed-food-delivery-day13.git
 git push -u origin main
 ```
 
